@@ -1,6 +1,5 @@
 # Facts about Harry Potter
-create a page thats all about Harry Potter
-use this api https://hp-api.onrender.com/
+Create a school page for howgarts using this api https://hp-api.onrender.com/
 
 ---
 
