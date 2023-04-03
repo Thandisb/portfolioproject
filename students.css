@@ -1,0 +1,91 @@
+body{
+  background-color: #6a0000;
+  
+}
+
+.link a{
+  color: #fca900;
+  height: 25px;
+
+}
+.link img{
+  height: 25px;
+}
+.head{
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 75px;
+  color: #fca900;
+  font-family: fantasy;
+  
+
+}
+/* .appear{
+  color: #6a0000;
+  font-family: fantasy;
+  color: #fca900;
+} */
+.container {
+
+  max-width: 950px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.card {
+  
+  margin-top: 25px;
+  height: 460px;
+  font-family: fantasy;
+  font-weight: bold;
+  border: 1px solid #fca900;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fca900;
+  color: #6a0000;
+}
+
+.container img {
+  width: 250px;
+  height: 250px;
+}
+
+.container-div >  {
+  margin-top: 50px;
+}
+.clickHere{
+  text-align: center;
+ 
+
+}
+button{
+  padding: 4rem 4rem;
+  background-color: #fca900;
+  cursor: pointer;
+  color: #6a0000;
+  font-size: 2rem;
+  font-family: fantasy;
+  text-transform: capitalize;
+  
+
+}
+@media(max-width:768px){
+  header{
+    display: grid;
+     grid-template-columns: 1fr;
+   }
+   main{
+     display: grid;
+     grid-template-columns: 1fr;
+     gap: 50px 0px;
+   }
+
+}
